@@ -33,4 +33,3 @@ import { HysComponent } from './components/hys/hys.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
