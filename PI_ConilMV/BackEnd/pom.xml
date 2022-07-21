@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.portfolio</groupId>
-	<artifactId>MarielaVeronicaConil</artifactId>
+	<artifactId>mvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MarielaVeronicaConil</name>
-	<description>Portfolio de Mariela Verónica Conil</description>
+	<name>mvc</name>
+	<description>Portfolio de MVC</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

@@ -1,13 +1,13 @@
-package com.portfolio.MarielaVeronicaConil;
+package com.portfolio.mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MarielaVeronicaConilApplication {
+public class MvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MarielaVeronicaConilApplication.class, args);
+		SpringApplication.run(MvcApplication.class, args);
 	}
 
 }
