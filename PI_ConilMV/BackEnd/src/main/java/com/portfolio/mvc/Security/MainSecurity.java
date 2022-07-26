@@ -28,6 +28,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class MainSecurity extends WebSecurityConfigurerAdapter{
     @Autowired
     UserDetailsImpl userDetailsImpl;
+    
     @Autowired
     JwtEntryPoint jwtEntryPoint;
     
@@ -53,7 +54,9 @@ public class MainSecurity extends WebSecurityConfigurerAdapter{
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS); 
         http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
     }
-
+    
+    
+   
     @Override
     protected AuthenticationManager authenticationManager() throws Exception {
         return super.authenticationManager(); 
