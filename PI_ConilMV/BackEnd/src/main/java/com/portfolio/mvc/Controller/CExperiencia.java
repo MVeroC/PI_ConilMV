@@ -7,7 +7,7 @@ package com.portfolio.mvc.Controller;
 
 import com.portfolio.mvc.Entity.Experiencia;
 import com.portfolio.mvc.Security.Controller.Mensaje;
-import com.portfolio.mvc.Security.Dto.dtoExperiencia;
+import com.portfolio.mvc.Dto.dtoExperiencia;
 import com.portfolio.mvc.Service.SExperiencia;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
