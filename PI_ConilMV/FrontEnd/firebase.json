@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist\\pi-conil-mv",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
