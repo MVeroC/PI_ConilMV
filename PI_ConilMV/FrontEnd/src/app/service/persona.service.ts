@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = 'https://portfoliomveroc.herokuapp.com/';
+  URL = 'https://portfoliomveroc.herokuapp.com';
   
   constructor(private http: HttpClient) { }
 
